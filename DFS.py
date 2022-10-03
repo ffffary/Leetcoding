@@ -1,6 +1,6 @@
 # track time of reading question, coding, testing
 # reading question: 1 min
-# coding: 15 min
+# coding: 10 min
 # test code successfully: 2 min
 
 # thoughts:

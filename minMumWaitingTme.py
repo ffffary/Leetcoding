@@ -42,3 +42,14 @@ def monimumWaitingTime(queries):
 # 2) 10 = 4+2*3
 # 3) 14 = 10+2*2
 # 4) 17 = 14+3*1
+
+
+#updated solution by using recursion
+def minimumWaitingTime(queries):
+    queries.sort()
+    return recursion(queries)
+def recursion(queries):
+    if queries == []:
+        return False
+    return sum(queries[:-1]) + recursion(queries[:-1])
+

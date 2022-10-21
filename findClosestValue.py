@@ -8,7 +8,8 @@
 # compute the absolute value of the difference between a node's value and the target's value
 # update the current closest value if any node is closer to the target than the current one
 
-# O(logn) time | O(1) space
+# Average case: O(logn) time | O(logn) space
+# Worst case: O(n) time | O(n) space 
 def findClosestValueInBst(tree, target):
     # return helper(tree, target, float("inf"))
     return helper(tree, target, tree.value) #initialize closest value to be the first value of the root node
@@ -25,7 +26,6 @@ def helper(tree, target, closest):
     else:
         return closest
 
-# This is the class of the input tree. Do not edit.
 class BST:
     def __init__(self, value):
         self.value = value

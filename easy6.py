@@ -3,7 +3,7 @@
 # Author: Fary
 # Problems solved: 3
 # Difficulty Level: easy
-# Problems source: https://github.com/ffffary/Leetcode-problems-images
+
 #####################################################################
 # problem1: Run-Length Encoding
 

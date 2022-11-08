@@ -9,7 +9,7 @@
 # thoughts:
 # recursively traverse the binary tree using depth-first-search
 # pass sum of the values of all previously visited nodes to the current node that we are traversing
-# O(n) time | O(1) space
+# O(n) time | O(n) space
 
 
 
